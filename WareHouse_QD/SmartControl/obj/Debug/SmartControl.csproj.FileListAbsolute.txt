@@ -1,0 +1,5 @@
+E:\工作\Project\Demo_QD\SmartControl\obj\Debug\ResolveAssemblyReference.cache
+E:\工作\Project\Demo_QD\SmartControl\bin\Debug\SmartControl.dll
+E:\工作\Project\Demo_QD\SmartControl\bin\Debug\SmartControl.pdb
+E:\工作\Project\Demo_QD\SmartControl\obj\Debug\SmartControl.dll
+E:\工作\Project\Demo_QD\SmartControl\obj\Debug\SmartControl.pdb
