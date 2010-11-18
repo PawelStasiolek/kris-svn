@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BCEA4CD5-E268-4537-AC70-362D918674F0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>eBest.Model</RootNamespace>
+    <AssemblyName>eBest.Model</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EBest.Persistent, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DllLibrary\EBest.Persistent.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SYS_Config.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SYS_Group.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SYS_Log.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SYS_LogType.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SYS_MailList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SYS_MENU.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SYS_MODULE.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SYS_USER_ROLE.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TB_BARCODE.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TB_INVENTORY_CHECK.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TB_STOCK_IN.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TB_User.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
