@@ -28,7 +28,7 @@ namespace PDAClient
             if (frmPreLogin.DialogResult != DialogResult.OK)
             {
                 // Close main menu form and quit system
-                Close();
+                Application.Exit();
                 return;
             }
 
@@ -39,7 +39,7 @@ namespace PDAClient
         {
             if (DialogResult.Yes == MessageBox.Show("确定退出系统？", "退出", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1))
                 // Close main menu form, quit system
-                Close();
+                Application.Exit();
 
         }
 
