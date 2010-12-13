@@ -44,7 +44,7 @@ namespace eBest.Business
         {
             string sql = string.Format(@"SELECT	PRODUCT_CODE
 		                                        ,(SELECT COUNT(PALLET_CODE) FROM TB_STOCK_IN AS T
-		                                         WHERE ORDER_NO='789' AND TB.PRODUCT_CODE=T.PRODUCT_CODE
+		                                         WHERE ORDER_NO='{0}' AND TB.PRODUCT_CODE=T.PRODUCT_CODE
 		                                         GROUP BY PRODUCT_CODE) AS SUM_PALLET
 		                                        ,PALLET_CODE,REC_USER_CODE,REC_TIME_STAMP
                                         FROM TB_STOCK_IN AS TB

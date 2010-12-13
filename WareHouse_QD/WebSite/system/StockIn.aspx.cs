@@ -21,7 +21,6 @@ public partial class system_StockIn : PageBase
     {
         gvBarcodeList.DataSource = new BarCodeManager().SearchStockIn(txtOrder.Value.Trim(),txtProduct.Value.Trim());
         gvBarcodeList.DataBind();
-        gvBarcodeList.GroupRows(0,1);
 
     }
 
