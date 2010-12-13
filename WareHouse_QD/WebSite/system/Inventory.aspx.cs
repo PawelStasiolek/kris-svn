@@ -21,7 +21,6 @@ public partial class system_Inventory : PageBase
     {
         gvBarcodeList.DataSource = new BarCodeManager().SearchInventory(DateTime.Parse(txtDate.Value));
         gvBarcodeList.DataBind();
-        gvBarcodeList.GroupRows(0,1);
     }
 
     protected void btnExport_Click(object sender, EventArgs e)
