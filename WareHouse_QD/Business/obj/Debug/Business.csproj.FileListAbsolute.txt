@@ -20,3 +20,14 @@ E:\工作\Project\Demo_QD\Business\bin\Debug\EBest.Configuration.dll
 E:\工作\Project\Demo_QD\Business\bin\Debug\eBest.Model.pdb
 E:\工作\Project\Demo_QD\Business\obj\Debug\eBest.Business.dll
 E:\工作\Project\Demo_QD\Business\obj\Debug\eBest.Business.pdb
+E:\工作\Project\WareHouse_QD\Business\bin\Debug\eBest.Business.dll
+E:\工作\Project\WareHouse_QD\Business\bin\Debug\eBest.Business.pdb
+E:\工作\Project\WareHouse_QD\Business\bin\Debug\EBest.Data.dll
+E:\工作\Project\WareHouse_QD\Business\bin\Debug\eBest.Model.dll
+E:\工作\Project\WareHouse_QD\Business\bin\Debug\EBest.Persistent.dll
+E:\工作\Project\WareHouse_QD\Business\bin\Debug\EBest.Common.dll
+E:\工作\Project\WareHouse_QD\Business\bin\Debug\EBest.Configuration.dll
+E:\工作\Project\WareHouse_QD\Business\bin\Debug\eBest.Model.pdb
+E:\工作\Project\WareHouse_QD\Business\obj\Debug\ResolveAssemblyReference.cache
+E:\工作\Project\WareHouse_QD\Business\obj\Debug\eBest.Business.dll
+E:\工作\Project\WareHouse_QD\Business\obj\Debug\eBest.Business.pdb
