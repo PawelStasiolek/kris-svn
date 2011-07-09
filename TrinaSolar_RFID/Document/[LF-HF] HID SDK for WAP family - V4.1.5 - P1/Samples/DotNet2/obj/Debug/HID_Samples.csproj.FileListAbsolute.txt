@@ -1,0 +1,42 @@
+C:\Documents and Settings\Kris He\桌面\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\bin\Debug\CFReader.dll
+C:\Documents and Settings\Kris He\桌面\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\bin\Debug\HID Samples.exe
+C:\Documents and Settings\Kris He\桌面\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\bin\Debug\HID Samples.pdb
+C:\Documents and Settings\Kris He\桌面\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\bin\Debug\HidGlobal.MultiIso.CFReader.dll
+C:\Documents and Settings\Kris He\桌面\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\bin\Debug\RFIDDriver.dll
+C:\Documents and Settings\Kris He\桌面\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Kris He\桌面\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\obj\Debug\PsionTeklogixRFIDDemoApplications.HID_ReaderSAMs.resources
+C:\Documents and Settings\Kris He\桌面\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\obj\Debug\PsionTeklogixRFIDDemoApplications.HID_ReaderISO15693.resources
+C:\Documents and Settings\Kris He\桌面\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\obj\Debug\PsionTeklogixRFIDDemoApplications.HID_HyperTerminal.resources
+C:\Documents and Settings\Kris He\桌面\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\obj\Debug\PsionTeklogixRFIDDemoApplications.HID_Launcher.resources
+C:\Documents and Settings\Kris He\桌面\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\obj\Debug\PsionTeklogixRFIDDemoApplications.HID_ReaderConfiguration.resources
+C:\Documents and Settings\Kris He\桌面\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\obj\Debug\PsionTeklogixRFIDDemoApplications.HID_ReaderHitagS.resources
+C:\Documents and Settings\Kris He\桌面\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\obj\Debug\PsionTeklogixRFIDDemoApplications.HID_ReaderISO14443.resources
+C:\Documents and Settings\Kris He\桌面\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\obj\Debug\PsionTeklogixRFIDDemoApplications.HID_ReaderLF.resources
+C:\Documents and Settings\Kris He\桌面\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\obj\Debug\PsionTeklogixRFIDDemoApplications.HID_ReaderMiFareDESFIRE.resources
+C:\Documents and Settings\Kris He\桌面\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\obj\Debug\PsionTeklogixRFIDDemoApplications.HID_ReaderMiFareStandard.resources
+C:\Documents and Settings\Kris He\桌面\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\obj\Debug\PsionTeklogixRFIDDemoApplications.HID_ReaderMiFareUltralight.resources
+C:\Documents and Settings\Kris He\桌面\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\obj\Debug\PsionTeklogixRFIDDemoApplications.HID_Settings.resources
+C:\Documents and Settings\Kris He\桌面\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\obj\Debug\HID_Samples.csproj.GenerateResource.Cache
+C:\Documents and Settings\Kris He\桌面\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\obj\Debug\HID Samples.exe
+C:\Documents and Settings\Kris He\桌面\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\obj\Debug\HID Samples.pdb
+E:\工作\Project\TrinaSolar\RFID\Document\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\bin\Debug\CFReader.dll
+E:\工作\Project\TrinaSolar\RFID\Document\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\bin\Debug\HID Samples.exe
+E:\工作\Project\TrinaSolar\RFID\Document\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\bin\Debug\HID Samples.pdb
+E:\工作\Project\TrinaSolar\RFID\Document\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\bin\Debug\HidGlobal.MultiIso.CFReader.dll
+E:\工作\Project\TrinaSolar\RFID\Document\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\bin\Debug\RFIDDriver.dll
+E:\工作\Project\TrinaSolar\RFID\Document\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\obj\Debug\ResolveAssemblyReference.cache
+E:\工作\Project\TrinaSolar\RFID\Document\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\obj\Debug\PsionTeklogixRFIDDemoApplications.HID_ReaderSAMs.resources
+E:\工作\Project\TrinaSolar\RFID\Document\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\obj\Debug\PsionTeklogixRFIDDemoApplications.HID_ReaderISO15693.resources
+E:\工作\Project\TrinaSolar\RFID\Document\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\obj\Debug\PsionTeklogixRFIDDemoApplications.HID_HyperTerminal.resources
+E:\工作\Project\TrinaSolar\RFID\Document\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\obj\Debug\PsionTeklogixRFIDDemoApplications.HID_Launcher.resources
+E:\工作\Project\TrinaSolar\RFID\Document\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\obj\Debug\PsionTeklogixRFIDDemoApplications.HID_ReaderConfiguration.resources
+E:\工作\Project\TrinaSolar\RFID\Document\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\obj\Debug\PsionTeklogixRFIDDemoApplications.HID_ReaderHitagS.resources
+E:\工作\Project\TrinaSolar\RFID\Document\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\obj\Debug\PsionTeklogixRFIDDemoApplications.HID_ReaderISO14443.resources
+E:\工作\Project\TrinaSolar\RFID\Document\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\obj\Debug\PsionTeklogixRFIDDemoApplications.HID_ReaderLF.resources
+E:\工作\Project\TrinaSolar\RFID\Document\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\obj\Debug\PsionTeklogixRFIDDemoApplications.HID_ReaderMiFareDESFIRE.resources
+E:\工作\Project\TrinaSolar\RFID\Document\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\obj\Debug\PsionTeklogixRFIDDemoApplications.HID_ReaderMiFareStandard.resources
+E:\工作\Project\TrinaSolar\RFID\Document\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\obj\Debug\PsionTeklogixRFIDDemoApplications.HID_ReaderMiFareUltralight.resources
+E:\工作\Project\TrinaSolar\RFID\Document\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\obj\Debug\PsionTeklogixRFIDDemoApplications.HID_Settings.resources
+E:\工作\Project\TrinaSolar\RFID\Document\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\obj\Debug\HID_Samples.csproj.GenerateResource.Cache
+E:\工作\Project\TrinaSolar\RFID\Document\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\obj\Debug\HID Samples.exe
+E:\工作\Project\TrinaSolar\RFID\Document\[LF-HF] HID SDK for WAP family - V4.1.5 - P1\Samples\DotNet2\obj\Debug\HID Samples.pdb
