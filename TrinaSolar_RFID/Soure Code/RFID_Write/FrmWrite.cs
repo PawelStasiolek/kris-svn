@@ -85,6 +85,7 @@ namespace RFID_Write
             hexString = hexString.PadRight(blocks * 8, '0');
 
             //select tag
+            Reader.RDR_AbortContinuousReadExt();
             Reader.RDR_SendCommandGetData("S", "", ref buffer);
             tagID = buffer;
             if (buffer.Length <= 1)
