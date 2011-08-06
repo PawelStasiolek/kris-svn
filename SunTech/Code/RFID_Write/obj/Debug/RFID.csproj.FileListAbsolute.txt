@@ -1,0 +1,9 @@
+E:\工作\Project\TrinaSolar\Code\RFID\RFID\RFID\bin\Debug\RFID.exe
+E:\工作\Project\TrinaSolar\Code\RFID\RFID\RFID\bin\Debug\RFID.pdb
+E:\工作\Project\TrinaSolar\Code\RFID\RFID\RFID\obj\Debug\ResolveAssemblyReference.cache
+E:\工作\Project\TrinaSolar\Code\RFID\RFID\RFID\obj\Debug\RFID.FrmMain.resources
+E:\工作\Project\TrinaSolar\Code\RFID\RFID\RFID\obj\Debug\RFID.Properties.Resources.resources
+E:\工作\Project\TrinaSolar\Code\RFID\RFID\RFID\obj\Debug\RFID.csproj.GenerateResource.Cache
+E:\工作\Project\TrinaSolar\Code\RFID\RFID\RFID\obj\Debug\RFID.exe
+E:\工作\Project\TrinaSolar\Code\RFID\RFID\RFID\obj\Debug\RFID.pdb
+E:\工作\Project\TrinaSolar\Code\RFID\RFID\RFID\obj\Debug\RFID.FrmWrite.resources
