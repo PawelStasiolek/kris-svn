@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<AppSettings>
+  <WebserviceUrl>http://172.18.50.164/Rfid/MES_RFID_Interface_Service.asmx</WebserviceUrl>
+  <Password>123456</Password>
+</AppSettings>
