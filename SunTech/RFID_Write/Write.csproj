@@ -1,0 +1,195 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5F88DE8C-5214-4E98-B56B-7165ECC11B24}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RFID_Write</RootNamespace>
+    <AssemblyName>Write</AssemblyName>
+    <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>WindowsCE</PlatformFamilyName>
+    <PlatformID>E2BECB1F-8C8C-41ba-B736-9BE7D946A398</PlatformID>
+    <OSVersion>5.0</OSVersion>
+    <DeployDirSuffix>RFID Write</DeployDirSuffix>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <NativePlatformName>Windows CE</NativePlatformName>
+    <FormFactorID>
+    </FormFactorID>
+    <ApplicationIcon>pen_blue.ico</ApplicationIcon>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HidGlobal.MultiIso.CFReader, Version=1.1.0.2, Culture=neutral, PublicKeyToken=478da40284f4633b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\HidGlobal.MultiIso.CFReader.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib" />
+    <Reference Include="PsionTeklogixNet, Version=3.4.1.132, Culture=neutral, PublicKeyToken=6c395979df126b25, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\PsionTeklogixNet.dll</HintPath>
+    </Reference>
+    <Reference Include="PsionTeklogixWAP, Version=1.1.3161.29063, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\PsionTeklogixWAP.dll</HintPath>
+    </Reference>
+    <Reference Include="RFIDDriver, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\RFIDDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataManager.cs" />
+    <Compile Include="FrmPwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPwd.Designer.cs">
+      <DependentUpon>FrmPwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWelcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWelcome.Designer.cs">
+      <DependentUpon>FrmWelcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWrite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWrite.Designer.cs">
+      <DependentUpon>FrmWrite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmPwd.resx">
+      <DependentUpon>FrmPwd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWelcome.resx">
+      <DependentUpon>FrmWelcome.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWrite.resx">
+      <DependentUpon>FrmWrite.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Web References\Webservice\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="WebExceptionMessage.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="CFReader.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pen_blue.ico" />
+    <Content Include="PtxSdkCommon.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="WapPowerCommutation.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Web References\Webservice\MES_RFID_Interface_Service.disco" />
+    <None Include="Web References\Webservice\MES_RFID_Interface_Service.wsdl" />
+    <None Include="Web References\Webservice\module_info.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Webservice\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://172.18.50.164/Rfid/MES_RFID_Interface_Service.asmx">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\Webservice\</RelPath>
+      <UpdateFromURL>http://172.18.50.164/Rfid/MES_RFID_Interface_Service.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
