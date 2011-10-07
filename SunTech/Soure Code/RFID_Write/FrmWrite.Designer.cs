@@ -121,7 +121,7 @@
             this.label4.Location = new System.Drawing.Point(3, 94);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(81, 31);
-            this.label4.Text = "Country of Orign";
+            this.label4.Text = "Country of Origin";
             this.label4.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // textBox5
